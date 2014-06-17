@@ -36,7 +36,7 @@ admins:
     is_telnet_admin: true
     is_senior_admin: true
     last_login: Tue, 17 Jun 2014 22:51:21 +0200
-    custom_login_message: the &4Admin-Manager
+    custom_login_message: the &2System-Admin-Manager
     console_aliases: []
     ips:
     - 67.163.187.154
