@@ -8,8 +8,8 @@ import org.bukkit.entity.Player;
 
 public enum TFM_PlayerRank
 {
-    DEVELOPER("a " + ChatColor.DARK_PURPLE + "Developer", ChatColor.DARK_PURPLE + "[Dev]"),
-    IMPOSTOR("an " + ChatColor.YELLOW + ChatColor.UNDERLINE + "Impostor", ChatColor.YELLOW.toString() + ChatColor.UNDERLINE + "[IMP]"),
+    DEVELOPER("a " + ChatColor.DARK_PURPLE + "Developer", ChatColor.DARK_PURPLE + "(Dev)"),
+    IMPOSTOR("an " + ChatColor.YELLOW + ChatColor.UNDERLINE + "Impostor", ChatColor.YELLOW.toString() + ChatColor.UNDERLINE + "(IMP)"),
     NON_OP("a " + ChatColor.GREEN + "Non-OP", ChatColor.GREEN.toString()),
     OP("an " + ChatColor.RED + "OP", ChatColor.RED + "(OP)"),
     SUPER("a " + ChatColor.GOLD + "Super Admin", ChatColor.GOLD + "(SA)"),
@@ -18,11 +18,12 @@ public enum TFM_PlayerRank
     OWNER("the " + ChatColor.BLUE + "Owner", ChatColor.BLUE + "(Owner)"),
     CONSOLE("The " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "(Console)");
     COOWNER("the " + ChatColor.BLUE + "Co-Owner", ChatColor.BLUE + "(Co-Owner)"),
-    SYSADMIN("a " + ChatColor.DARK_RED + "System Admin", ChatColor.DARK_GREEN + "(System-Admin)"),
+    SYSADMIN("a " + ChatColor.DARK_GREEN + "System Admin", ChatColor.DARK_GREEN + "(System-Admin)"),
     ADMINMANAGER("a " + ChatColor.DARK_RED + "Admin Manager", ChatColor.DARK_RED + "(Admin-Manager)"),
     DEVADMINMANAGER("a " + ChatColor.BLUE + "Developer Admin Manager", ChatColor.BLUE + "(Dev-Admin-Manager)"),
     SYSADMINMANAGER("a " + ChatColor.DARK_GREEN + "System Admin Manager", ChatColor.DARK_GREEN + "(Sys-Admin-Manager"),
-    LEADDEV("a " + ChatColor.DARK_RED + "Lead Dev", ChatColor.DARK_RED + "(Lead-Dev)"),
+    LEADDEV("a " + ChatColor.DARK_PURPLE + "Lead Dev", ChatColor.DARK_PURPLE + "(Lead-Dev)"),
+    
     private String loginMessage;
     private String prefix;
 
