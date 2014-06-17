@@ -1,40 +1,137 @@
-#
-# SuperAdmin List
-#
-
 clean_threshold_hours: 168
-
 admins:
-  b3c3b05a-a52d-33a6-a9c6-6e5063e00f0a:
-    last_login_name: DarthSalamon
+  8867d296-97e9-4af6-bf84-e87cb3df5eba:
+    last_login_name: RobinGall2910
     is_activated: true
-    is_senior_admin: true
     is_telnet_admin: true
+    is_senior_admin: true
+    last_login: Tue, 17 Jun 2014 01:28:56 +0200
+    custom_login_message: ''
+    console_aliases: []
     ips:
-    - 127.0.0.1
-    console_aliases:
-    - darth
-    last_login: Tue, 15 Apr 2014 16:08:39 +0200
-    custom_login_message: the &5Lead Developer&b!
+    - 75.94.192.50
+  a5127e2b-6889-30a2-8ba2-6dc00e141920:
+    last_login_name: Robo_Lord
+    is_activated: true
+    is_telnet_admin: true
+    is_senior_admin: true
+    last_login: Mon, 16 Jun 2014 19:59:07 +0200
+    custom_login_message: the &7Developer!
+    console_aliases: []
+    ips:
+    - 94.8.210.74
+  f5cd54c4-3a24-4213-9a56-c06c49594dff:
+    last_login_name: taahanis
+    is_activated: false
+    is_telnet_admin: false
+    is_senior_admin: false
+    last_login: Tue, 17 Jun 2014 01:29:13 +0200
+    custom_login_message: ABUSER!
+    console_aliases: []
+    ips:
+    - 76.175.191.1
+  24084983-4b54-32af-be30-ca232b8dae4b:
+    last_login_name: Zekrom1644763
+    is_activated: true
+    is_telnet_admin: true
+    is_senior_admin: true
+    last_login: Tue, 17 Jun 2014 22:51:21 +0200
+    custom_login_message: the &4Admin-Manager
+    console_aliases: []
+    ips:
+    - 67.163.187.154
+  58a6ea8a-3ac3-4033-80e3-41bf9caa634b:
+    last_login_name: markbyron
+    is_activated: false
+    is_telnet_admin: false
+    is_senior_admin: false
+    last_login: Sat, 10 Nov 2012 08:09:14 +0100
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 8.8.4.4
+  2197d27d-ece1-3fe2-89b8-c21fd27fe562:
+    last_login_name: Typhlosion147
+    is_activated: true
+    is_telnet_admin: true
+    is_senior_admin: true
+    last_login: Tue, 17 Jun 2014 21:15:00 +0200
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 166.147.68.171
+    - 166.147.69.44
+    - 173.172.54.242
+  9020a8dc-4419-3fb3-a374-3c4bad32414e:
+    last_login_name: maranatwister
+    is_activated: true
+    is_telnet_admin: true
+    is_senior_admin: true
+    last_login: Tue, 17 Jun 2014 21:00:06 +0200
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 68.63.207.57
+  2a37cf58-f333-3ba7-bd97-98602c7bb607:
+    last_login_name: LevnettUK_Ronit
+    is_activated: true
+    is_telnet_admin: true
+    is_senior_admin: true
+    last_login: Tue, 17 Jun 2014 22:52:12 +0200
+    custom_login_message: a &7Developer!
+    console_aliases: []
+    ips:
+    - 81.132.131.6
+  aff2e708-3764-3554-bbb8-6aa5d15efab1:
+    last_login_name: tblackburn
+    is_activated: true
+    is_telnet_admin: true
+    is_senior_admin: true
+    last_login: Tue, 17 Jun 2014 22:51:25 +0200
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 173.66.225.239
+  4959d4f1-f988-4047-8231-00ec4502f6d1:
+    last_login_name: stormmer488
+    is_activated: true
+    is_telnet_admin: true
+    is_senior_admin: true
+    last_login: Tue, 17 Jun 2014 21:00:22 +0200
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 68.63.207.57
   1156a81a-23fb-435e-9aff-fe9c2ea7e82d:
     last_login_name: Madgeek1450
     is_activated: true
     is_telnet_admin: true
     is_senior_admin: true
+    last_login: Tue, 15 Apr 2014 16:01:24 +0200
+    custom_login_message: the &4Co-Founder&b and &6Master-ass-kicker&b.
     console_aliases:
     - madgeek
     ips:
     - 1.2.3.4
     - 8.8.8.8
-    last_login: Tue, 15 Apr 2014 16:01:24 +0200
-    custom_login_message: the &4Co-Founder&b and &6Master-ass-kicker&b.
-  58a6ea8a-3ac3-4033-80e3-41bf9caa634b:
-    last_login_name: markbyron
+  1992c336-148c-4d9e-af63-213d98c5da40:
+    last_login_name: The_Rain_Man34
     is_activated: true
     is_telnet_admin: true
     is_senior_admin: true
+    last_login: Tue, 17 Jun 2014 01:28:57 +0200
+    custom_login_message: the &7Executive &4Admin-Manager!
     console_aliases: []
     ips:
-    - 8.8.4.4
-    last_login: Sat, 10 Nov 2012 08:09:14 +0100
-    custom_login_message: the &dOwner&b.
+    - 67.83.51.53
+  b3c3b05a-a52d-33a6-a9c6-6e5063e00f0a:
+    last_login_name: DarthSalamon
+    is_activated: true
+    is_telnet_admin: true
+    is_senior_admin: true
+    last_login: Tue, 15 Apr 2014 16:08:39 +0200
+    custom_login_message: the &5Lead Developer&b!
+    console_aliases:
+    - darth
+    ips:
+    - 127.0.0.1
