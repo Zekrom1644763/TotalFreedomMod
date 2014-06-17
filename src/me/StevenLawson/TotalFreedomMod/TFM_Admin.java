@@ -29,6 +29,8 @@ public class TFM_Admin
         this.loginMessage = loginMessage;
         this.isSeniorAdmin = isSeniorAdmin;
         this.isTelnetAdmin = isTelnetAdmin;
+        this.isCoOwner = isCoOwner;
+        this.isSystemAdmin = isSystemAdmin;
         this.consoleAliases = new ArrayList<String>();
         this.isActivated = isActivated;
     }
@@ -44,6 +46,8 @@ public class TFM_Admin
         this.isTelnetAdmin = section.getBoolean("is_telnet_admin", false);
         this.consoleAliases = section.getStringList("console_aliases");
         this.isActivated = section.getBoolean("is_activated", true);
+        this.isCoOwner = section.getBoolean("is_co_owner", false);
+        this.isSystemAdmin = section.getBoolean("is_systemadmin" false);
     }
 
     @Override
@@ -60,6 +64,8 @@ public class TFM_Admin
         output.append("- Is Telnet Admin: ").append(isTelnetAdmin).append("\n");
         output.append("- Console Aliases: ").append(StringUtils.join(consoleAliases, ", ")).append("\n");
         output.append("- Is Activated: ").append(isActivated);
+        output.append("- Is SystemAdmin: ")append(isSystemAdmin);
+        output.append("- Is CoOwner: ")append(isCoOwner);
 
         return output.toString();
     }
@@ -119,7 +125,14 @@ public class TFM_Admin
     {
         return isTelnetAdmin;
     }
-
+    public boolean
+    {
+        return isCoOwner;
+    }
+    public boolean
+    {
+        return isSystemAdmin;
+    }
     public List<String> getConsoleAliases()
     {
         return Collections.unmodifiableList(consoleAliases);
