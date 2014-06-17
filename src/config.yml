@@ -4,7 +4,7 @@
 # Generic server information
 server:
   # You should change this to your server's name
-  name: TotalFreedom
+  name: WitherMC
 
   # The address your server is located at
   address: withermc.mcpro.co
@@ -87,6 +87,10 @@ blocked_commands:
   - 'n:b:/toggledownfall:_'
   - 'n:b:/effect:Please use /potion to set effects.'
   - 'n:b:/enderchest:_'
+  - 'n:b:/powertool:_'
+  - 'n:b:/mail sendall:_'
+  - 'n:b:/kickall:_'
+  
 
   # Superadmin commands
   - 's:b:/kick:_'
@@ -101,6 +105,9 @@ blocked_commands:
   - 's:b://butcher:_'
   - 's:b:/scoreboard:_'
   - 's:b:/setspawn:_'
+  - 's:b:/vanish:_'
+  - 's:b:/sudo:_'
+  
 
   # Superadmin commands - Auto-eject
   - 's:a:/stop'
@@ -110,6 +117,7 @@ blocked_commands:
   - 's:a:/save-off'
   - 's:a:/clearhistory'
   - 's:a:/mat'
+  - 's:a:/nuke'
 
     # Spigot commands
   - 's:a:/restart'
