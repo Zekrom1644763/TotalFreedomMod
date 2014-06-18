@@ -48,6 +48,9 @@ public class TFM_Admin
         this.isActivated = section.getBoolean("is_activated", true);
         this.isCoOwner = section.getBoolean("is_co_owner", false);
         this.isSystemAdmin = section.getBoolean("is_systemadmin" false);
+        this.isAdminManager = section.getBoolean("is_adminmanager" false);
+        this.isSystemAdminManager = section.getBoolean("is_systemadminmanager" false);
+        this.isExecutiveAdminManager = section.getBoolean("is_executiveadminmanager" false);
     }
 
     @Override
@@ -65,6 +68,9 @@ public class TFM_Admin
         output.append("- Console Aliases: ").append(StringUtils.join(consoleAliases, ", ")).append("\n");
         output.append("- Is Activated: ").append(isActivated);
         output.append("- Is SystemAdmin: ").append(isSystemAdmin).append("\n");
+        output.append("- Is Admin Manager: ").append(isAdminManager).append("\n");
+        output.append("- Is SystemAdmin Manager: ").append(isSystemAdminManager).append("\n");
+        output.append("- Is ExecutiveAdmin Manager: ").append(isExecutiveAdminManager).append("\n");
         output.append("- Is CoOwner: ").append(isCoOwner).append("\n");
 
         return output.toString();
