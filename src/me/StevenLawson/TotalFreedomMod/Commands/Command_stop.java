@@ -13,11 +13,10 @@ public class Command_stop extends TFM_Command
     @Override
     public boolean run(CommandSender sender, Player sender_p, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)
     {
-        TFM_Util.bcastMsg("Server is going offline!", ChatColor.LIGHT_PURPLE);
-
+        TFM_Util.bcastMsg("Server is going offline!", ChatColor.LIGHT_RED);
         for (Player player : server.getOnlinePlayers())
         {
-            player.kickPlayer("Server is going offline, come back in about 20 seconds.");
+            player.kickPlayer("Server is going offline, come back in about 15 seconds.");
         }
 
         server.shutdown();
