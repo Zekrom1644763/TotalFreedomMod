@@ -64,8 +64,8 @@ public class TFM_Admin
         output.append("- Is Telnet Admin: ").append(isTelnetAdmin).append("\n");
         output.append("- Console Aliases: ").append(StringUtils.join(consoleAliases, ", ")).append("\n");
         output.append("- Is Activated: ").append(isActivated);
-        output.append("- Is SystemAdmin: ")append(isSystemAdmin);
-        output.append("- Is CoOwner: ")append(isCoOwner);
+        output.append("- Is SystemAdmin: ").append(isSystemAdmin).append("\n");
+        output.append("- Is CoOwner: ").append(isCoOwner).append("\n");
 
         return output.toString();
     }
