@@ -52,7 +52,7 @@ public class Command_tfm extends TFM_Command
         playerMsg("WitherMCMod for 'WitherMC', the original all-op server.", ChatColor.GOLD);
         playerMsg(String.format("Version "
                 + ChatColor.BLUE + "%s.%s" + ChatColor.GOLD + ", built "
-                + ChatColor.BLUE + "%s" + ChatColor.GOLD + " by RobinGall2910"
+                + ChatColor.BLUE + "%s" + ChatColor.GOLD + " by "
                 + ChatColor.BLUE + "%s" + ChatColor.GOLD + ".",
                 TotalFreedomMod.pluginVersion,
                 TotalFreedomMod.buildNumber,
