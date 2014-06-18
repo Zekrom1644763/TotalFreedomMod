@@ -49,10 +49,10 @@ public class Command_tfm extends TFM_Command
             return true;
         }
 
-        playerMsg("TotalFreedomMod for 'Total Freedom', the original all-op server.", ChatColor.GOLD);
+        playerMsg("WitherMCMod for 'WitherMC', the original all-op server.", ChatColor.GOLD);
         playerMsg(String.format("Version "
                 + ChatColor.BLUE + "%s.%s" + ChatColor.GOLD + ", built "
-                + ChatColor.BLUE + "%s" + ChatColor.GOLD + " by "
+                + ChatColor.BLUE + "%s" + ChatColor.GOLD + " by RobinGall2910"
                 + ChatColor.BLUE + "%s" + ChatColor.GOLD + ".",
                 TotalFreedomMod.pluginVersion,
                 TotalFreedomMod.buildNumber,
@@ -60,7 +60,7 @@ public class Command_tfm extends TFM_Command
                 TotalFreedomMod.buildCreator), ChatColor.GOLD);
         playerMsg("Running on " + TFM_ConfigEntry.SERVER_NAME.getString() + ".", ChatColor.GOLD);
         playerMsg("Created by Madgeek1450 and DarthSalamon.", ChatColor.GOLD);
-        playerMsg("Visit " + ChatColor.AQUA + "http://totalfreedom.me/" + ChatColor.GREEN + " for more information.", ChatColor.GREEN);
+        playerMsg("Visit " + ChatColor.AQUA + "http://withermc.boards.net/" + ChatColor.GREEN + " for more information.", ChatColor.GREEN);
 
         return true;
     }
