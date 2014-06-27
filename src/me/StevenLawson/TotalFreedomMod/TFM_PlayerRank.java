@@ -17,7 +17,7 @@ public enum TFM_PlayerRank
     SENIOR("a " + ChatColor.LIGHT_PURPLE + "Senior Admin", ChatColor.LIGHT_PURPLE + "[SrA]"),
     OWNER("the " + ChatColor.BLUE + "Owner", ChatColor.BLUE + "[Owner]"),
     EXECUTIVE("a " + ChatColor.PINK + "Executive", ChatColor.PINK + "[Exec]"),
-    EXECUTIVEPLUS("a " + ChatColor.DARK_PURPLE + "Executive+", ChatColor.DARK_PURPLE + "[Exec+]"),
+    EXECUTIVEPLUS("a " + ChatColor.LIGHT_BLUE + "Executive+", ChatColor.LIGHT_BLUE + "[Exec+]"),
     CONSOLE("The " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]");
     private String loginMessage;
     private String prefix;
