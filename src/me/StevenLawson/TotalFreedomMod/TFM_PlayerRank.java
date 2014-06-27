@@ -66,12 +66,12 @@ public enum TFM_PlayerRank
         {
             return IMPOSTOR;
         }
-        if (sender.getName().equals("))
         
+                if (sender.getName().equals("xrt"))
         {
             return EXECUTIVE;
         }
-                if (sender.getName().equals("))
+                if (sender.getName().equals("Zekrom1644763"))
         {
             return EXECUTIVEPLUS;
         }
