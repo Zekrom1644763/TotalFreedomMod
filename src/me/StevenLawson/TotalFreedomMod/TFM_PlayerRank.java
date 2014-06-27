@@ -67,6 +67,7 @@ public enum TFM_PlayerRank
             return IMPOSTOR;
         }
         if (sender.getName().equals("))
+        
         {
             return EXECUTIVE;
         }
@@ -74,6 +75,7 @@ public enum TFM_PlayerRank
         {
             return EXECUTIVEPLUS;
         }
+        
         if (DEVELOPERS.contains(sender.getName()))
         {
             return DEVELOPER;
